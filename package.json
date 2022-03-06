@@ -1,0 +1,22 @@
+{
+  "name": "figma-for-developers",
+  "version": "1.0.0",
+  "description": "Notes and resources for Steve's Frontend Masters course on Figma for Developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevekinney/figma-for-developers.git"
+  },
+  "author": "Steve Kinney <hello@stevekinney.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevekinney/figma-for-developers/issues"
+  },
+  "homepage": "https://github.com/stevekinney/figma-for-developers#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}
