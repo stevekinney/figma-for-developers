@@ -1,2 +1,4 @@
 _site
 node_modules
+content/.DS_Store
+.DS_Store
