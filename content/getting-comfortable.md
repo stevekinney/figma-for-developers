@@ -1,8 +1,12 @@
+---
+layout: base.njk
+---
+
 # Getting Comfortable
 
 When you first fire up Figma, you'll be greeted with a window that looks something like this.
 
-![initial-window.png](_assets/initial-window.png)
+![initial-window.png](/_assets/images/initial-window.png)
 
 Let's start by creating a new design file.
 
@@ -10,7 +14,7 @@ Let's start by creating a new design file.
 
 You've got that toolbar along the top.
 
-![toolbar.png](_assets/toolbar.png)
+![toolbar.png](/_assets/images/toolbar.png)
 
 For starters, there is the Figma menu. I guess it's similar to the Apple menu in macOS or the start button in Windows. There are a whole bunch of options that'll we poke at over the course of our time together.
 
@@ -32,9 +36,9 @@ You can **present** your **interactive prototype**, deal with missing fonts, and
 
 ## The Left Sidebar
 
-In the left sidebar, you'll see an index of all of your **layers** and **assets**. Layers are basically like the *things* in your design. If you want to think of them as *objects*, that's totally reasonable.
+In the left sidebar, you'll see an index of all of your **layers** and **assets**. Layers are basically like the _things_ in your design. If you want to think of them as _objects_, that's totally reasonable.
 
-Assets are things like **[Components](Components.md)**. Are reusable "classes" that you can instantiate in your design.
+Assets are things like **[Components](/components)**. Are reusable "classes" that you can instantiate in your design.
 
 Lastly, you have your pages, which are like pages. You know what pages are right?
 

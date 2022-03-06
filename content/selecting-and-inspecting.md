@@ -1,3 +1,7 @@
+---
+layout: base.njk
+---
+
 # Selecting and Inspecting
 
 Investing just a little bit of time getting comfortable with selecting elements in Figma will play off in dividends get into some of the more advanced concepts.
@@ -6,7 +10,7 @@ Investing just a little bit of time getting comfortable with selecting elements 
 
 We'll be working from [this page](https://www.figma.com/file/P8P6tYmPrmr0NTmw1T1BWL/?node-id=9%3A253) in Figma.
 
-Hold down the **Command key** on **macOS** or the **Control key** on Windows to select the exact element that you’re presently hovering over. 
+Hold down the **Command key** on **macOS** or the **Control key** on Windows to select the exact element that you’re presently hovering over.
 
 Select an element on the page and hold down either the **Alt** or **Option** key.
 

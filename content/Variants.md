@@ -1,16 +1,20 @@
+---
+layout: base.njk
+---
+
 # Variants
 
 Using variants has some perks:
 
-* It adds a level of organization to your components.
-* It provides you with a simpler interface for configuring your instances of a component.
-* Style overrides and nested components are preserved when switching between variants.
+- It adds a level of organization to your components.
+- It provides you with a simpler interface for configuring your instances of a component.
+- Style overrides and nested components are preserved when switching between variants.
 
 ## When should you use variants?
 
-* You’ve got multiple, but similar, components and they share a lot of the same properties.
-* You’ve got some state you want to be able to toggle between: enabled/disabled, checked/unchecked, on/off, etc.
-* You’re looking ahead to the—ahem—poor souls that will be coding up these designs and you want to map to the properties that they’re going to be referencing in their front-end framework of choice.
+- You’ve got multiple, but similar, components and they share a lot of the same properties.
+- You’ve got some state you want to be able to toggle between: enabled/disabled, checked/unchecked, on/off, etc.
+- You’re looking ahead to the—ahem—poor souls that will be coding up these designs and you want to map to the properties that they’re going to be referencing in their front-end framework of choice.
 
 There are worlds where there is just an insane number of variations. In this point, you might consider using **base components** (i.e. inheritance) or **nesting instances of components** (i.e. composition). (Yea, it’s weird how software engineering concepts map to design, right?)
 

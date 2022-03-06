@@ -1,14 +1,18 @@
+---
+layout: base.njk
+---
+
 # Layout Grids
 
 One of the reason that you might want to nest frames is because frames support layout grids and as you’ve probably learned from implementing designs, most of what we do these days is just a nested series of CSS Grids and Flexboxes.
 
-You can apply a **layout grid** to any [frame](Frames%20and%20Groups.md). Hey, you can even apply *multiple* grids to a single frame. You can also tweak how the grid looks (e.g. the color and opacity).
+You can apply a **layout grid** to any [frame](/frames-and-groups). Hey, you can even apply _multiple_ grids to a single frame. You can also tweak how the grid looks (e.g. the color and opacity).
 
 With your grids, you can adjust the number of columns or rows, the width of those columns and rows, the margins around your columns or rows, and the gutters between them.
 
 ## Nested Grids
 
-The super cool thing about Figma is that you can apply multiple grids to a frame *and* you can nest frames, this means you can compose some pretty sophisticated grid layouts.
+The super cool thing about Figma is that you can apply multiple grids to a frame _and_ you can nest frames, this means you can compose some pretty sophisticated grid layouts.
 
 ## Usage with Constraints
 

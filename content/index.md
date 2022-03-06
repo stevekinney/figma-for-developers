@@ -1,0 +1,50 @@
+---
+layout: base.njk
+---
+
+## Course Outline
+
+- [Introduction](/introduction)
+- [Getting Comfortable](/getting-comfortable)
+- [Getting Started](/getting-started)
+  - Exercise: [Aligning Objects](https://www.figma.com/file/P8P6tYmPrmr0NTmw1T1BWL/?node-id=0%3A1)
+- [Frames and Groups](/frames-and-groups)
+- [Selecting and Inspecting](/selecting-and-inspecting)
+- [Shared Styles](/shared-styles)
+  - Exercise: [Create a Typography System](/create-a-typography-system)
+  - Creating a Style Guide
+    - [Batch Renaming](/batch-renaming)
+    - [Using the Styler Plugin to Batch Create Styles](/using-the-styler-plugin-to-batch-create-styles)
+    - [Exporting Styles with CSSGen](/exporting-styles-with-cssgen)
+  - [Refactoring an Existing Design](/refactoring-an-existing-design)
+- [Constraints](/constraints)
+  - Playing with Constraints
+  - [Refactoring with Constraints](https://www.figma.com/file/l4xtEss5K7SVuK5LuKMCi1/Frontend-Masters-Courses?node-id=0%3A1)
+  - Exercise: [Constraints](https://www.figma.com/file/P8P6tYmPrmr0NTmw1T1BWL/Frontend-Masters-Playground?node-id=18%3A93)
+- [Layout Grids](/layout-grids)
+  - Exercise: [Layout Grids](https://www.figma.com/file/P8P6tYmPrmr0NTmw1T1BWL/Frontend-Masters-Playground?node-id=25%3A139)
+  - [Layout Grids and Constraints](https://www.figma.com/file/P8P6tYmPrmr0NTmw1T1BWL/Frontend-Masters-Playground?node-id=25%3A151)
+  - Refactoring with Constraints and Layout Grids
+- [Auto Layout](/auto-layout)
+  - [Creating a Button with Auto Layout](https://www.figma.com/file/P8P6tYmPrmr0NTmw1T1BWL/Frontend-Masters-Playground?node-id=30%3A38)
+  - Exercise: [Creating an Input Field](https://www.figma.com/file/P8P6tYmPrmr0NTmw1T1BWL/Frontend-Masters-Playground?node-id=31%3A74)
+  - Creating a Navigation Bar with Auto Layout
+  - Exercise: A More Sophisticated Input Field
+  - Refactor: Adding Buttons
+  - Refactor Exercise: Adding Tabs
+- [Components](/components)
+  - Making a Button Component
+  - Organizing Your Components
+  - Using Base Components
+    - Creating a Set of Buttons
+  - Refactor Menu Bar into a Component
+  - Refactoring: Making Components Out of Things
+  - Making a Data Table
+- [Variants](/variants)
+  - Making Button States
+  - Exercise: Updating the Navigation Bar
+- [Prototypes](/prototypes)
+  - Making a Prototype
+  - Using Variants to Make Interactive Components
+  - Making a Drop Down Menu
+- [Creating Team Components and Libraries](/creating-team-components-and-libraries)

@@ -1,0 +1,186 @@
+:root {
+  --color-black-50: rgba(254, 255, 248, 1);
+  --color-black-100: rgba(223, 225, 217, 1);
+  --color-black-200: rgba(195, 197, 190, 1);
+  --color-black-300: rgba(175, 177, 170, 1);
+  --color-black-400: rgba(154, 156, 149, 1);
+  --color-black-500: rgba(133, 135, 128, 1);
+  --color-black-600: rgba(109, 111, 104, 1);
+  --color-black-700: rgba(85, 87, 81, 1);
+  --color-black-800: rgba(52, 54, 48, 1);
+  --color-black-900: rgba(22, 23, 17, 1);
+  --color-red-50: rgba(255, 209, 172, 1);
+  --color-red-100: rgba(255, 178, 143, 1);
+  --color-red-200: rgba(255, 150, 117, 1);
+  --color-red-300: rgba(255, 130, 98, 1);
+  --color-red-400: rgba(255, 108, 79, 1);
+  --color-red-500: rgba(231, 86, 60, 1);
+  --color-red-600: rgba(201, 59, 38, 1);
+  --color-red-700: rgba(170, 27, 15, 1);
+  --color-red-800: rgba(126, 0, 0, 1);
+  --color-red-900: rgba(86, 0, 0, 1);
+  --color-orange-50: rgba(255, 236, 103, 1);
+  --color-orange-100: rgba(255, 206, 73, 1);
+  --color-orange-200: rgba(255, 178, 42, 1);
+  --color-orange-300: rgba(242, 159, 10, 1);
+  --color-orange-400: rgba(217, 138, 0, 1);
+  --color-orange-500: rgba(193, 117, 0, 1);
+  --color-orange-600: rgba(163, 94, 0, 1);
+  --color-orange-700: rgba(135, 70, 0, 1);
+  --color-orange-800: rgba(96, 36, 0, 1);
+  --color-orange-900: rgba(67, 0, 0, 1);
+  --color-yellow-50: rgba(255, 251, 108, 1);
+  --color-yellow-100: rgba(255, 220, 77, 1);
+  --color-yellow-200: rgba(232, 192, 47, 1);
+  --color-yellow-300: rgba(210, 173, 19, 1);
+  --color-yellow-400: rgba(186, 152, 0, 1);
+  --color-yellow-500: rgba(163, 131, 0, 1);
+  --color-yellow-600: rgba(135, 108, 0, 1);
+  --color-yellow-700: rgba(108, 84, 0, 1);
+  --color-yellow-800: rgba(74, 50, 0, 1);
+  --color-yellow-900: rgba(52, 18, 0, 1);
+  --color-green-50: rgba(229, 255, 251, 1);
+  --color-green-100: rgba(174, 237, 216, 1);
+  --color-green-200: rgba(147, 209, 188, 1);
+  --color-green-300: rgba(127, 189, 168, 1);
+  --color-green-400: rgba(106, 167, 147, 1);
+  --color-green-500: rgba(86, 146, 127, 1);
+  --color-green-600: rgba(61, 121, 103, 1);
+  --color-green-700: rgba(36, 96, 79, 1);
+  --color-green-800: rgba(0, 62, 46, 1);
+  --color-green-900: rgba(0, 31, 16, 1);
+  --color-teal-50: rgba(229, 255, 255, 1);
+  --color-teal-100: rgba(124, 241, 255, 1);
+  --color-teal-200: rgba(92, 213, 227, 1);
+  --color-teal-300: rgba(68, 193, 206, 1);
+  --color-teal-400: rgba(34, 171, 184, 1);
+  --color-teal-500: rgba(0, 149, 163, 1);
+  --color-teal-600: rgba(0, 124, 138, 1);
+  --color-teal-700: rgba(0, 100, 113, 1);
+  --color-teal-800: rgba(0, 64, 78, 1);
+  --color-teal-900: rgba(0, 34, 45, 1);
+  --color-blue-50: rgba(229, 255, 255, 1);
+  --color-blue-100: rgba(155, 230, 255, 1);
+  --color-blue-200: rgba(125, 202, 255, 1);
+  --color-blue-300: rgba(103, 183, 253, 1);
+  --color-blue-400: rgba(77, 161, 230, 1);
+  --color-blue-500: rgba(46, 140, 207, 1);
+  --color-blue-600: rgba(0, 116, 181, 1);
+  --color-blue-700: rgba(0, 92, 154, 1);
+  --color-blue-800: rgba(0, 59, 116, 1);
+  --color-blue-900: rgba(0, 29, 80, 1);
+  --color-purple-50: rgba(255, 239, 255, 1);
+  --color-purple-100: rgba(245, 209, 255, 1);
+  --color-purple-200: rgba(217, 181, 255, 1);
+  --color-purple-300: rgba(196, 161, 240, 1);
+  --color-purple-400: rgba(174, 140, 217, 1);
+  --color-purple-500: rgba(152, 120, 195, 1);
+  --color-purple-600: rgba(127, 96, 169, 1);
+  --color-purple-700: rgba(101, 72, 142, 1);
+  --color-purple-800: rgba(64, 39, 105, 1);
+  --color-purple-900: rgba(28, 7, 70, 1);
+}
+
+*,
+html,
+body {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Inter';
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  background-color: var(--color-black-50);
+  color: var(--color-black-900);
+  line-height: 1.8em;
+  margin: 0 0 4em 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1.25em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+p,
+li {
+  line-height: 1.8em;
+}
+
+img {
+  max-width: 100%;
+}
+
+button,
+input,
+select,
+option {
+  font-size: 16px;
+  font-family: 'Poppins';
+  font-weight: bolder;
+  font-style: normal;
+  line-height: 14px;
+  text-decoration: none;
+}
+
+a {
+  color: var(--color-teal-700);
+}
+
+a:hover {
+  color: var(--color-teal-900);
+  text-decoration: none;
+}
+
+a:active {
+  color: var(--color-teal-800);
+}
+
+header {
+  background-color: var(--color-green-50);
+  padding: 3em;
+  margin-bottom: 4em;
+  border-bottom: 1px solid var(--color-green-800);
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  max-width: 800px;
+  padding: 0 2em;
+  margin: auto;
+}

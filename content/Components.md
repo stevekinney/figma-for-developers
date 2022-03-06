@@ -1,6 +1,10 @@
+---
+layout: base.njk
+---
+
 # Components
 
-We're developers, right? Yea, we are. So, we're all subscribed to this whole "don't repeat yourself" thing. In Figma, we can re-usable things using *components*.
+We're developers, right? Yea, we are. So, we're all subscribed to this whole "don't repeat yourself" thing. In Figma, we can re-usable things using _components_.
 
 You can think of components like classes in your object-oriented programming of choice. (If we really want to nerd out, the mental model is probably closest to JavaScript's prototypal inheritance.)
 
@@ -8,11 +12,11 @@ You can make components for pretty much anything from simple shapes to buttons t
 
 What else might make a good component?
 
-* Common UI elements
-* Logos and branding assets
-* Icons, either your own or some icon library that you like
-* UI elements from your framework of choice, particularly if you’re developing a native platform like iOS or Android, but also if you’re using something like MaterialUI, Bootstrap, or Charkra.
-* Meta stuff like post-it notes and arrows and whatnot
+- Common UI elements
+- Logos and branding assets
+- Icons, either your own or some icon library that you like
+- UI elements from your framework of choice, particularly if you’re developing a native platform like iOS or Android, but also if you’re using something like MaterialUI, Bootstrap, or Charkra.
+- Meta stuff like post-it notes and arrows and whatnot
 
 You've got your **main component**, which is the one that you can edit and change. It serves as the template for all of your **component instances**.
 
@@ -26,12 +30,12 @@ You can use components locally or you can pop them into your Team Library if you
 
 You can create components using any of the following means:
 
-* This fun little icon in the toolbar: ![component-icon.svg](_assets/component-icon.svg)
+- This fun little icon in the toolbar: ![component-icon.svg](/_assets/images/component-icon.svg)
 
-* Right-click on the *thing* that you want to turn into a component and then click **Create Component**.
-* Press a fun hotkey:
-  * `Command-Option-K` on macOS
-  * `Control-Alt-K` on Windows (and probably Linux)
+- Right-click on the _thing_ that you want to turn into a component and then click **Create Component**.
+- Press a fun hotkey:
+  - `Command-Option-K` on macOS
+  - `Control-Alt-K` on Windows (and probably Linux)
 
 You can also create multiple components if your heart desires. If you select multiple things, you should see **Create Multiple Components** as an option.
 
@@ -51,18 +55,18 @@ It makes sense to start with smaller building blocks (e.g. a button or a card) a
 
 Things you can override:
 
-* Text stuff: font, weight, size, line height, letter spacing, etc.
-* Color stuff: the fill or stroke of any layers.
-* Shadows and blurs
-* [Layout Grids](Layout%20Grids.md)
-* Nested components (like icons)
+- Text stuff: font, weight, size, line height, letter spacing, etc.
+- Color stuff: the fill or stroke of any layers.
+- Shadows and blurs
+- [Layout Grids](/layout-grids)
+- Nested components (like icons)
 
-Things you can't change: 
+Things you can't change:
 
-* The order of things
-* The position of things
-* Constraints
-* The bounds of text layers
+- The order of things
+- The position of things
+- Constraints
+- The bounds of text layers
 
 What happens if you start messing around with an instance and you want to actually make those changes stick with the main component? Well, you're in luck: If you click the three dots (street tacos), then you can select **Push overrides to Main**, which will do what it says in the tin.
 
@@ -78,15 +82,15 @@ There is also a cool **Reset All Overrides** icon that you can click if your hea
 
 ## Variants
 
-Chances are that you don't want *exact* replicas of every component. For example, maybe your buttons have different text in them instead of just "Button." Or, maybe not. I don't know. You do you.
+Chances are that you don't want _exact_ replicas of every component. For example, maybe your buttons have different text in them instead of just "Button." Or, maybe not. I don't know. You do you.
 
-We'll get into the nitty-gritty in a hot minute, but let's briefly do our due diligence and talk about *what* you can customize.
+We'll get into the nitty-gritty in a hot minute, but let's briefly do our due diligence and talk about _what_ you can customize.
 
-A variant is a property and a value. (It's not wrong if your mind wanders toward keys and values in JavaScript objects.) So, like let's say you have some fun toast notifications: might have a *type* property that has the following values You get the idea.
+A variant is a property and a value. (It's not wrong if your mind wanders toward keys and values in JavaScript objects.) So, like let's say you have some fun toast notifications: might have a _type_ property that has the following values You get the idea.
 
 Variants have their own fun naming conventions: `Property1=value, Property2=value, Property3=value`.
 
 Let's walk through the following:
 
-* Making a set of variants for a button
-* Creating. variants out existing components
+- Making a set of variants for a button
+- Creating. variants out existing components
